@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+/* Configurações iniciais */
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    width: 100%;
+}
+
+/* Cabeçário do site */
+header {
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: 100%;
+    background-image: url(../images/imgFundo_torcidaCorinthians.jpg);
+}
+
+.openTopBar {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75vw;
+}
+
+nav .logo_menu {
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+    color: #ecebeb;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    background-color: #ecebeb;
+    color: #000;
+}
+
+
+/* Estilização que aborda todas as sections */
+section {
+    background-color: #000000;
+}
+
+section .container {
+    width: 75vw;
+    height: 100%;
+    background-color: #ecebeb;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    margin: auto;
+}
+
+/* Section da biografia c/ elementos embutidos em outras sections */
+section#biografia .container h1,
+#carreira .container h1,
+#titulos .container h1 {
+    display: block;
+    margin: 40px 0;
+    font-size: 35px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+section#biografia .container p {
+    margin: 45px 0;
+    line-height: 25px;
+}
+
+section #photoCassio {
+    display: inline-block;
+    width: 300px;
+    margin: 35px 0;
+    text-align: center;
+    box-shadow: 8px 8px 4px #000;
+}
+
+/* Section da carreira */
+section .container h2 {
+    display: inline-block;
+    border-bottom: 1px solid #c8c8c8;
+    margin: 35px 0;
+}
+
+section#carreira P {
+    text-align: justify;
+    text-indent: 35px;
+    line-height: 20px;
+}
+
+.text_career {
+    width: 50vw;
+    margin: auto;
+}
+
+/* Section dos titulos */
+section#titulos .titles-body {
+    display: flex;
+}
+
+section#titulos ul {
+    list-style: none;
+    padding-top: 5px;
+}
+
+/* box das informações */
+.titles-body {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 20px;
+}
+
+/* Nome dos times */
+.team-name {
+    background-color: #000;
+    color: #ecebeb;
+}
+
+/* Títulos ganhos */
+.team-titles {
+    margin: 0 15px;
+    border: 1px solid #c8c8c8;
+}
+
+/* Rodapé do site */
+footer {
+    min-height: 140px;
+    background-image: url(../images/imgFundo_torcidaCorinthians.jpg);
+}
+
+footer .container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+
+/* Ícones com meus contatos */
+.footer_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 35px 0;
+}
+
+.footer_icons a {
+    margin-right: 15px;
+}
+
+/* Copyright */
+.footer_copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-top: 1px solid #f5f5f5;
+    color: white;
+    font-size: 10px;
+}
+
+.footer_copy a {
+    text-decoration: none;
+    color: #f00;
+}
+
+.footer_copy a:active {
+    color: #ecebeb;
+}
+
+.material-symbols-outlined {
+    font-size: 13px;
+}
+
+/* Botão para voltar ao topo da página */
+.footer_copy .button_start {
+    margin-left: 39%;
+}
